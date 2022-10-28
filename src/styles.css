@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+#app,
+#app .target {
+  border: 1px solid black;
+  flex: 0 1 1ch;
+  display: flex;
+}
+
+#app .target:last-child {
+  flex: 1;
+}
+#app {
+  display: flex;
+  gap: 0.125rem;
+}
