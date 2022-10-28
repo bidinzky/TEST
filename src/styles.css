@@ -12,6 +12,10 @@ body {
 #app .target:last-child {
   flex: 1;
 }
+
+#app .target:focus {
+  border: 1px solid red;
+}
 #app {
   display: flex;
   gap: 0.125rem;
